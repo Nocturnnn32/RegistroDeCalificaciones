@@ -9,11 +9,65 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Registro de Persona</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+            }
+            h1 {
+                color: #333;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            table, th, td {
+                border: 1px solid #999;
+            }
+            th, td {
+                padding: 10px;
+                text-align: left;
+            }
+            input[type="text"] {
+                width: 100%;
+                padding: 8px;
+                margin: 5px 0;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+            }
+            input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+            .header {
+                background-color: #333;
+                color: white;
+                padding: 10px 0;
+                text-align: center;
+            }
+            .header p {
+                margin: 0;
+            }
+        </style>
     </head>
     <body>
-        <p>PRIMER PARCIAL  TEM-742</p>
-          <p>Nombre: Ruben Condori Cosme</p>
+        <div class="header">
+            <p>PRIMER PARCIAL TEM-742</p>
+            <p>Nombre: Ruben Condori Cosme</p>
             <p>Carnet: 7092342 L.P</p>
+        </div>
         <h1>Registro de Calificaciones</h1>
         <form action="MainServlet" method="post">
             <table>
